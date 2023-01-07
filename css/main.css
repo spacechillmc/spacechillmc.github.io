@@ -1,0 +1,139 @@
+body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:50px;
+    left:500px
+}
+
+.servername {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+}
+
+hr.separator {
+    padding: 0px;
+    margin:0px;
+    border: 1 solid gray;
+}
+
+
+.description {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0;
+    top: 260px;
+}
+
+.info {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 360px;
+    cursor: pointer;
+}
+
+.works {
+    color: green;
+}
+
+.howtojoin {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 450px;
+}
+
+.htjdesc {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 580px;
+}
+
+.whitelistmethods {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0;
+    position: absolute;
+    top: 680px;
+}
+
+.dscsrv {
+    color: blueviolet;
+}
+
+p4 {
+    color: black;
+    font-size: 17px;
+}
+
+p5 {
+    color: black;
+    font-size: 17px;
+    cursor: pointer; 
+}
+
+.peculiarities {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0;
+    position: absolute;
+    top: 780px;
+}
+
+.peculiaritiesdesc {
+    font-family: 'JetBrains Mono';
+    color: black;
+    padding: 15px 64px;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0;
+    position: absolute;
+    top: 850px;
+}
+
+p7 {
+    cursor: pointer;
+}
